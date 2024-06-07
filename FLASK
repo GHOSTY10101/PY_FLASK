@@ -12,7 +12,7 @@ def resource():
     if request.method == 'POST':
         data = request.get_json()
         return jsonify({"you sent": data}), 201
-    return jsonify({"message": "Send a POST request to see something cool!"})
+    return jsonify({"message": "Send a POST request to know more!!!"})
 
 if __name__ == '__main__':
     app.run(debug=True)
